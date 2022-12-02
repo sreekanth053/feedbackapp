@@ -1,0 +1,75 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-color: #ffffff;
+  width: 40%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.emojis-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.emoji-btn {
+  height: 60px;
+  width: 60px;
+  border: 0px;
+  background-color: #ffffff;
+}
+.emoji {
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff;
+}
+.emoji-name {
+  color: black;
+  margin-top: 20px;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-color: #ffffff;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 10px;
+  margin: 50px;
+}
+.love-emoji {
+  height: 800px;
+  width: 80px;
+  text-align: center;
+}
+.description {
+  font-size: 20px;
+  padding-top: 0px;
+  font-weight: 600px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
